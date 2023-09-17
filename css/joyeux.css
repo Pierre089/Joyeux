@@ -1,0 +1,150 @@
+/* .clsWrapper {
+    stroke-width: 5;
+} */
+#divFrame01{
+    position: absolute;   
+}
+#divTexte01{
+    position: absolute;   
+}
+#div03 {    
+    background-color: #CCCCCC;
+    position: relative;
+    width:928px;
+    /* fill:none; */
+    /* top:0px; 
+    left:0px; 
+    width:100px;
+    height:700px;*/
+  }
+#div02 {
+    /* background-color: #CCCCCC; */
+    /* overflow-block: hidden;
+    background-image: url(../img/Rose_flowerColored.svg); */
+    position: relative;
+    fill:none;
+    /* top:40px; 
+    /* left:0px; */
+    /* width:923px; */
+    /* height:1342px; */
+}
+
+#ulListImg {
+    /* position: absolute; */
+    width:18000px;
+    /* height:637px; */
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+.divImg {
+    /* position: absolute; */
+    float: left;
+    /* margin-left: 250px; */
+    /* padding-left: 250px; */
+    /* display: inline-block; */
+    /* left: 0px; */
+    /* width:923px;
+    height:633px;*/
+    /* fill:none; */
+    /* top:0px;
+    bottom:0px; */
+    /* writing-mode: vertical-lr;
+    max-block-size: fill-available; */
+    /* equal to border thickness */
+    /* top:5px; 
+    left:5px;
+    right :5px;
+    bottom:5px;  */
+    /* border: top left radius 50px;*/
+    clip-path:url(#cpath01);
+}
+
+.slider {
+    width: 923px;
+    overflow: hidden;
+    /* background-image:url(img/Rose_flowerColored.svg); */
+    /* height: 400px; */
+}
+
+.slider ul {
+    list-style: none;
+    width: 3000px;
+    /* height: 300px; */
+    margin: 0;
+    padding: 0;
+}
+
+.button, .index {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    padding: 6px;
+    border: 1px solid #ccc;
+    /* margin: 10px 0 0 0;
+    position:relative; */
+  }
+   
+  .culture {
+    /* display:block; */
+    margin:0 auto;
+   }
+
+  .back {
+    float: left;
+    /* left : 10px */
+   }
+   .forward {
+    float: right;
+    /* left : 200px */
+   }
+.DivAudio {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.index {
+    text-align: center;
+   }
+  
+   /* a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+   }
+   a:hover {
+    text-decoration: none;
+   } */
+   
+/* .run {
+    animation: dash 1s linear forwards;
+  } */
+  
+@keyframes dash {
+    /* from {
+    stroke-dashoffset: 130;  
+} */
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.JeMeSouviens {
+    fill: none;
+    /* stroke:#000000; */
+    stroke-width:0.5px;
+    stroke-dasharray: 1000px;
+    /* stroke-dashoffset: 0px */
+    stroke-dashoffset: 1000px
+}
+
+/* .testFadeOut {
+    animation: fadeout 4s;
+}
+
+@keyframes fadeout {
+    to   { opacity: 0; }
+} */

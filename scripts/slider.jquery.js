@@ -1,4 +1,4 @@
-$(document).ready(function ($) {
+$(document).ready(function () {
     $.fn.slider = function (options) {
         var defaults = {
             duration: 1000,
@@ -234,4 +234,4 @@ $(document).ready(function ($) {
                }
         });
     };
-})(jQuery);
+});
