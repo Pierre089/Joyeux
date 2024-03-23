@@ -37,7 +37,9 @@ $(document).ready(function () {
             var $containerTexte = $slider.children("#divTexte01");
 
             var timer = setTimeout(automaticSlide, settings.animationDelay);
-            
+
+            var $sliderImg = $sliderItems.children(".divImg");
+
             var currentIndex = 1;
             // index de l'image pour le calcul de margin-left de la liste
             // si forward : décrémenter margin-left
@@ -51,7 +53,9 @@ $(document).ready(function () {
     
             var totalImages = $sliderItems.length;
 
-            var $sliderImg = $sliderItems.children(".divImg");
+            // $sliderImg.children("img").each(function(index) {
+            // });
+
             // const initialValue = 0;
             var margeG = $sliderImg.map (function () {
                 return {width: $(this).width(), height:$(this).height()};
