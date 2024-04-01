@@ -14,6 +14,7 @@ $(document).ready(function () {
             var $audioMP3 = $slider.parent().find(".DivAudio").children("#au01");
             var $divBG = $slider.parent();
             var $videoJAnniv = $slider.parent().find("#divVid02").children("#vid02");
+            var $sliderImg = $sliderItems.children(".divImg");
             // const tbChansons = [
             //     'audio/Charles Trenet - Douce France.mp3',
             //     'audio/Carte_de_S_jour_Douce_France.mp3',
@@ -37,8 +38,6 @@ $(document).ready(function () {
             var $containerTexte = $slider.children("#divTexte01");
 
             var timer = setTimeout(automaticSlide, settings.animationDelay);
-
-            var $sliderImg = $sliderItems.children(".divImg");
 
             var currentIndex = 1;
             // index de l'image pour le calcul de margin-left de la liste
